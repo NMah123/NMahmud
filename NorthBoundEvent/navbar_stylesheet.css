@@ -1,0 +1,12 @@
+#Sticky {
+color:#454545;
+border: 2px solid black;
+position:fixed;
+/**adjust location**/
+left: 0px;
+top: 0px;
+padding: 0 10px 0 10px;
+width: 100%;
+min-width: 1000px;
+background: url(transparent.png) repeat;
+}
