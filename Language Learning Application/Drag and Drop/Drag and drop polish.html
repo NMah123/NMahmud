@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and drop Polish</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<a href="../MenuPol.html"><img src="../Images/home.png" width="120" height="120" alt=""/></a>
+	
+  <h1>Przeciągnij i upuść</h1>
+  <main class="container">
+    <div>
+      <ul class="draggable-list">
+        <li id="e1" draggable="true"><strong>Mineral water</strong></li>
+        <li id="e2" draggable="true"><strong>Black Coffee</strong></li>
+        <li id="e3" draggable="true"><strong>Tea with lemon</strong></li>
+        <li id="e4" draggable="true"><strong>Salt</strong></li>
+        <li id="e5" draggable="true"><strong>Sugar</strong></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s2" draggable="true"><strong>Czarna kawa</strong></li>
+        <li id="s5" draggable="true"><strong>Cukier</strong></li>
+        <li id="s1" draggable="true"><strong>Woda mineralna</strong></li>
+        <li id="s3" draggable="true"><strong>Herbata z cytryną</strong></li>
+        <li id="s4" draggable="true"><strong>Sól</strong></li>
+      </ul>
+    </div>
+  </main>
+
+  <div id="endMessage">
+	  
+	  
+	  
+    <h1>Well done!</h1>
+    <h1>Bardzo dobrze</h1>
+    <table>
+      <tr>
+        <th>English</th>
+        <th>Polish</th>
+      </tr>
+      <tr>
+        <td>Mineral Water</td>
+        <td>Woda mineralna</td>
+      </tr>
+      <tr>
+        <td>Black Coffee</td>
+        <td>Czarna kawa</td>
+      </tr>
+      <tr>
+        <td>Tea with lemon</td>
+        <td>Herbata z cytryną</td>
+      </tr>
+      <tr>
+        <td>Salt</td>
+        <td>Sól</td>
+      </tr>
+      <tr>
+        <td>Sugar</td>
+        <td>Cukier</td>
+      </tr>
+    </table>
+	  
+<div><center><h2><b>Wrong Attempts:5</b></h2></center></div>
+	  
+	<button onclick="playAgain()">Zagraj ponownie</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>

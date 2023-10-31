@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Drag and drop italian</title>  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	
+	<a href="../MenuIta.html"><img src="../Images/home.png" width="120" height="120" alt=""/></a>
+	
+  <h1>Trascinare e rilasciare</h1>
+  <main class="container">
+    <div>
+      <ul class="draggable-list">
+        <li id="e1" draggable="true"><strong>Mineral water</strong></li>
+        <li id="e2" draggable="true"><strong>Black Coffee</strong></li>
+        <li id="e3" draggable="true"><strong>Tea with lemon</strong></li>
+        <li id="e4" draggable="true"><strong>Salt</strong></li>
+        <li id="e5" draggable="true"><strong>Sugar</strong></li>
+      </ul>
+    </div>
+    <div>
+      <ul class="draggable-list">
+        <li id="s2" draggable="true"><strong>Caffè nero</strong></li>
+        <li id="s5" draggable="true"><strong>Zucchero</strong></li>
+        <li id="s1" draggable="true"><strong>Acqua minerale</strong></li>
+        <li id="s3" draggable="true"><strong>Tè al limone</strong></li>
+        <li id="s4" draggable="true"><strong>Sale</strong></li>
+      </ul>
+    </div>
+  </main>
+
+	<div id="endMessage">
+    <h3>Well done!</h3>
+    <h3>Ben fatto!</h3>
+    <table>
+      <tr>
+        <th>English</th>
+        <th>Italian</th>
+      </tr>
+      <tr>
+        <td>Mineral Water</td>
+        <td>Acqua minerale</td>
+      </tr>
+      <tr>
+        <td>Black Coffee</td>
+        <td>Caffè nero</td>
+      </tr>
+      <tr>
+        <td>Tea with lemon</td>
+        <td>Tè al limone</td>
+      </tr>
+      <tr>
+        <td>Salt</td>
+        <td>Sale</td>
+      </tr>
+      <tr>
+        <td>Sugar</td>
+        <td>Zucchero</td>
+      </tr>
+    </table>
+
+		<div><center><h2><b>Wrong Attempts:2</b></h2></center></div>
+		
+    <button onclick="playAgain()">Gioca di nuovo</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  
+</body>
+</html>

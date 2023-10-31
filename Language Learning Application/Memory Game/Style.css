@@ -1,0 +1,127 @@
+* {
+	padding-top: 0;
+	padding-right: 0;
+	padding-bottom: 0;
+	margin: 0;
+	box-sizing: border-box;
+  }
+  
+  body {
+    height: 100vh;
+    display: flex;
+    background: #1F4E79;
+  }
+  
+  .memory-game {
+    width: 800px;
+    height: 676px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+  }
+  
+  .memory-card {
+    width: calc(25% - 10px);
+    height: calc(33.333% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+    box-shadow: 1px 1px 1px rgba(0,0,0,.3);
+  }
+  
+  .memory-card:active {
+    transform: scale(0.97);
+    transition: transform .2s;
+  }
+  
+  .memory-card.flip {
+    transform: rotateY(180deg);
+  }
+  
+  .front-face,
+  .back-face {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+    position: absolute;
+    border-radius: 5px;
+    background: #FFD966;
+    backface-visibility: hidden;
+  }
+  
+  .front-face {
+    transform: rotateY(180deg);
+  }
+
+
+.tabletext {
+	
+}
+body button {
+    margin-left: 680px;
+}
+body div h1 {
+    text-align: center;
+    margin-left: 28px;
+}
+body div {
+
+}
+.memory-game {
+    margin-left: -185px;
+    margin-top: 250px;
+    margin-right: -1248px;
+}
+refresh {
+    margin-left: 213px;
+    padding-left: 0px;
+}
+body button {
+    margin-left: 1547px;
+}
+h1 strong em {
+    margin-left: 0px;
+    padding-left: 6px;
+}
+Play again complete pol {
+
+}
+center h2 b {
+    margin-top: 205px;
+}
+body div {
+    margin-top: 6px;
+    margin-left: 285px;
+    margin-bottom: 0px;
+}
+title {
+
+}
+.Table {
+    margin-top: 270px;
+    margin-right: 245px;
+    margin-left: -951px;
+    padding-right: 0px;
+    margin-bottom: 100px;
+}
+center div h1 {
+    padding-left: 0px;
+    margin-left: -309px;
+    margin-right: -906px;
+}
+.memory-game {
+    margin-left: 0px;
+}
+body a img {
+    margin-left: 11px;
+}
+body div h1 {
+    margin-right: -679px;
+    margin-left: -152px;
+}
+div center h2 {
+    margin-left: 569px;
+}
