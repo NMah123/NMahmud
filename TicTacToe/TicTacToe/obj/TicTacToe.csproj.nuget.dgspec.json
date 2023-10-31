@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {}
+  },
+  "projects": {
+    "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\BoardLogic\\BoardLogic.csproj": {
+      "restore": {
+        "projectUniqueName": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\BoardLogic\\BoardLogic.csproj",
+        "projectName": "BoardLogic",
+        "projectPath": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\BoardLogic\\BoardLogic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "projectName": "TicTacToe",
+        "projectPath": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\TicTacToe\\TicTacToe.csproj",
+        "packagesPath": "C:\\Users\\naeem\\.nuget\\packages\\",
+        "outputPath": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\TicTacToe\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\naeem\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\BoardLogic\\BoardLogic.csproj": {
+                "projectPath": "B:\\Users\\naeem\\Desktop\\C# Projects\\TicTacToe\\BoardLogic\\BoardLogic.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
